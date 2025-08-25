@@ -1,4 +1,5 @@
-
+.env
+.vscode/
 # Compiled Object files
 *.o
 *.obj
