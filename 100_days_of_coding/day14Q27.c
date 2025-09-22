@@ -24,10 +24,8 @@ scanf("%d", &n);
 
 for(int i=1; i<=n; i++){
     sum = sum + (2*i - 1);
-
-printf("Sum of first %d odd numbers is: %d\n", n, sum);}
-else{
-    printf("Invalid input\n");
 }
+printf("Sum of first %d odd numbers is: %d\n", n, sum);
+
     return 0;
 }

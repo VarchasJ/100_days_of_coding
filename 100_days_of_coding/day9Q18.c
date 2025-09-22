@@ -26,7 +26,7 @@ Grade F
 #include <stdio.h>
 int main(){
 int percentage;
-printf("Enter percetage: ");
+printf("Enter percetage:");
 scanf("%d", &percentage);
 if (percentage>=90){
     printf("Grade A\n");

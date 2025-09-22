@@ -15,26 +15,19 @@ Approximate sum: 4.4
 */
 #include <stdio.h>
 
-#include <stdio.h>
-
-#include <stdio.h>
-
 int main() {
     int n, i;
-    float series_sum = 0.0f;
+    float series_sum = 0.0;
 
     printf("Enter the number of terms (n): ");
-    if (scanf("%d", &n) != 1) return 0;
+    scanf("%d", &n);
 
     for (i = 1; i <= n; i++) {
-        float term;
-        if (i == 1)
-            term = 1.0f;  // first term is 1
-        else
-            term = (2.0f * i - 1.0f) / (2.0f * i); // float division
-        series_sum += term;
+        series_sum += (float)(2 * i - 1) / (2 * i);  
     }
 
     printf("Approximate sum: %.1f\n", series_sum);
+
     return 0;
 }
+

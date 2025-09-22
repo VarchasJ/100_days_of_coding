@@ -17,8 +17,7 @@ Output 1:
 *****
 
 */
-#include <stdio.h>
-typedef unsigned int size_t;  
+#include <stdio.h> 
 int main() {
     int i, j;
 
