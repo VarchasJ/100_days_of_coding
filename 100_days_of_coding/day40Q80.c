@@ -41,9 +41,11 @@ int main() {
     int result[r1][c2];
 
     
-    for (int i = 0; i < r1; i++)
-        for (int j = 0; j < c2; j++)
+    for (int i = 0; i < r1; i++){
+        for (int j = 0; j < c2; j++){
             result[i][j] = 0;
+        }
+    }
 
 
     for (int i = 0; i < r1; i++) {
